@@ -1,0 +1,28 @@
+{
+  "name": "TSN_RGB_cf",
+  "n_gpu": 1,
+  "loss_categorical": "combined_loss",
+  "loss_continuous": "mse_loss",
+  "metrics_categorical": ["average_precision", "roc_auc"],
+  "metrics_continuous": ["r2", "mean_squared_error"],
+  "lr_scheduler": {
+    "type": "MultiStepLR",
+    "args": {
+      "milestones": [40],
+      "gamma": 0.1
+    }
+  },
+  "trainer": {
+    "epochs": 40,
+    "save_dir": "log",
+    "checkpoint_dir": "/gpu-data2/jpik/checkpoints",
+    "save_period": 50,
+    "verbosity": 2,
+    "monitor": "on",
+    "mnt_mode": "max",
+    "mnt_metric": "Validation ERS",
+    "check_enabled": true,
+    "early_stop": 100,
+    "tensorboard": false
+  }
+}

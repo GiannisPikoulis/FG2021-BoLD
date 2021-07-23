@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.png
+*.txt
+*.avi
+*.tar
+log/
+*.pth
+*.tar

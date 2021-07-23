@@ -305,5 +305,7 @@ if args.mode != 'test':
 else:
     combined = np.hstack((out_cont, out_cat))
     if args.save_outputs:
-        np.savetxt(os.path.join(args.output_dir, args.exp_name, args.mode, 'output.csv'), combined, delimiter=",", fmt='%1.6f')   
+        np.save(os.path.join(args.output_dir, args.exp_name, args.mode, 'output_cat.npy'), out_cat)
+        np.save(os.path.join(args.output_dir, args.exp_name, args.mode, 'output_cont.npy'), out_cont)        
+        np.savetxt(os.path.join(args.output_dir, args.exp_name, args.mode, 'output.csv'), combined, delimiter=",", fmt='%1.6f') 
         print('Done saving {} outputs!'.format(args.mode))

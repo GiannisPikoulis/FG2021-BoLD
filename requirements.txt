@@ -3,7 +3,7 @@
 # platform: win-64
 _pytorch_select=0.1=cpu_0
 absl-py=0.13.0=pyhd8ed1ab_0
-aiohttp=3.7.0=py37h4ab8f01_0
+aiohttp=3.7.4=py37h4ab8f01_0
 async-timeout=3.0.1=py_1000
 attrs=21.2.0=pyhd8ed1ab_0
 blas=1.0=mkl

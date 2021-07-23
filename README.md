@@ -32,7 +32,7 @@ Change modality to Optical Flow (all streams initialized with ImageNet pre-train
 
 ### Pretrained Models
 
-We also offer weights of an TSN-RGB with body, context, face, scenes and attributes streams, embedding loss and partial batch normalization (0.2590 validation ERS), a TSN-Flow model with body, context and face streams, embedding loss and partial batch normalization (0.2408 validation ERS) and a fine-tuned ST-GCN model with spatial labeling strategy and pre-training on Kinetics (0.2237 validation ERS). Their weighted averaged late fusion achieves an ERS of 0.2882 on the validation set. You can download the pretrained models [here](https://drive.google.com/drive/folders/18CAU2WX61BRB2dK6ABKM7R1mDA8iR3Vz?usp=sharing).
+We also offer weights of an TSN-RGB with body, context, face, scenes and attributes streams, embedding loss and partial batch normalization (0.2590 validation ERS), a TSN-Flow model with body, context and face streams, embedding loss and partial batch normalization (0.2408 validation ERS) and a fine-tuned ST-GCN model with spatial labeling strategy and pre-training on Kinetics (0.2237 validation ERS). Their weighted averaged late fusion achieves an ERS of 0.2882 on the validation set. You can download the pre-trained models [here](https://drive.google.com/drive/folders/18CAU2WX61BRB2dK6ABKM7R1mDA8iR3Vz?usp=sharing).
 
 Moreover, all Places365 and SUN pre-trained models that were utilized in our experiments can be found [here](https://github.com/CSAILVision/places365). ImageNet pre-trained weights can be found [here]. Lastly, we do not intend to release our AffectNet pre-trained ResNet-18 and ResNet-50 variants. 
 

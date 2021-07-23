@@ -32,7 +32,7 @@ Change modality to Optical Flow (all streams initialized with ImageNet pre-train
 
 ### Pretrained Models
 
-We also offer weights of an TSN-RGB with body, context, face, scenes and attributes streams, embedding loss and partial batch normalization (0.2590 validation ERS), a TSN-Flow model with body, context and face streams, embedding loss and partial batch normalization (0.2408 validation ERS) and a fine-tuned ST-GCN model with spatial labeling strategy and pre-training on Kinetics (0.2237 validation ERS). Their fusion achieves an ERS of 0.2613 on the validation set. You can download the pretrained models [here](https://ntuagr-my.sharepoint.com/:f:/g/personal/filby_ntua_gr/EkFAi_QSn9NDsFTylvoAJrQBuvh6eQWkbgTuZcyMWWPR2w?e=xxw6h9).
+We also offer weights of an TSN-RGB with body, context, face, scenes and attributes streams, embedding loss and partial batch normalization (0.2590 validation ERS), a TSN-Flow model with body, context and face streams, embedding loss and partial batch normalization (0.2408 validation ERS) and a fine-tuned ST-GCN model with spatial labeling strategy and pre-training on Kinetics (0.2237 validation ERS). Their fusion achieves an ERS of 0.3051 on the test set. You can download the pretrained models [here]().
 
 Moreover, all Places365 and SUN pre-trained models that were utilized in our experiments can be found [here](https://github.com/CSAILVision/places365). ImageNet pre-trained weights can be found [here]. Lastly, we do not intend to release our AffectNet pre-trained ResNet-18 and ResNet-50 variants. 
 
@@ -45,7 +45,6 @@ Run inference on the BoLD test set (using the provided pre-trained models):
 ### Citation
 
 If you use our code for your research, consider citing the following papers:
-
 ```
 @misc{pikoulis2021leveraging,
       title={Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild}, 
@@ -63,7 +62,6 @@ If you use our code for your research, consider citing the following papers:
   year={2020}
 }
 ```
-
 ### Acknowlegements
 
 * [https://github.com/filby89/NTUA-BEEU-eccv2020](https://github.com/filby89/NTUA-BEEU-eccv2020)

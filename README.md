@@ -1,4 +1,4 @@
-# FG2021-BoLD
+# IEEE FG2021 - BoLD
 
 Code for reproducing our proposed state-of-the-art model, for categorical and continuous emotion recognition on the basis of the newly assembled and challenging Body Language Dataset (BoLD), as submitted to the 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG2021)
 

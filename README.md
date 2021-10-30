@@ -1,6 +1,6 @@
 # [IEEE FG 2021] Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild
 
-![plot](https://github.com/GiannisPikoulis/FG2021-BoLD/blob/master/model.pdf?raw=true)
+![Model](https://github.com/GiannisPikoulis/FG2021-BoLD/blob/master/model.png?raw=true)
 
 Code for reproducing our proposed state-of-the-art model, for categorical and continuous emotion recognition on the basis of the newly assembled and challenging Body Language Dataset (BoLD), as submitted to the 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021).
 

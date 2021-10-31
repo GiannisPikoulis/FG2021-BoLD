@@ -1,4 +1,4 @@
-# [IEEE FG 2021] Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild
+# Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild
 
 ![Model](https://github.com/GiannisPikoulis/FG2021-BoLD/blob/master/model.png?raw=true)
 

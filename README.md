@@ -48,13 +48,14 @@ Run inference on the BoLD test set (using the provided pre-trained models):
 
 If you use our code for your research, consider citing the following papers:
 ```
-@misc{pikoulis2021leveraging,
-      title={Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild}, 
-      author={Ioannis Pikoulis and Panagiotis P. Filntisis and Petros Maragos},
-      year={2021},
-      eprint={2105.07484},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{pikoulis2021leveraging,
+  author={Pikoulis, Ioannis and Filntisis, Panagiotis P. and Maragos, Petros},
+  booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)}, 
+  title={Leveraging Semantic Scene Characteristics and Multi-Stream Convolutional Architectures in a Contextual Approach for Video-Based Visual Emotion Recognition in the Wild}, 
+  year={2021},
+  volume={},
+  number={},
+  doi={10.1109/FG52635.2021.9666957}
 }
 
 @inproceedings{NTUA_BEEU,

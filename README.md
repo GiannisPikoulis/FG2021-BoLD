@@ -14,7 +14,9 @@ Code for reproducing our proposed state-of-the-art model, for categorical and co
 
 Train an Temporal Segment Network using the RGB modality (TSN-RGB) and only the body stream, on the BoLD dataset:
 
-`python train_tsn.py --config main_config.json --exp_name TSN_RGB_b --modality RGB --device 0 --rgb_body` 
+```
+python train_tsn.py --config main_config.json --exp_name TSN_RGB_b --modality RGB --device 0 --rgb_body
+```
 
 Add context branch:
 

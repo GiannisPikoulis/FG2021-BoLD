@@ -20,19 +20,27 @@ python train_tsn.py --config main_config.json --exp_name TSN_RGB_b --modality RG
 
 Add context branch:
 
-> python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc --modality RGB --device 0 --context --rgb_body --rgb_context
+```
+python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc --modality RGB --device 0 --context --rgb_body --rgb_context
+```
 
 Add visual embedding loss:
 
-> python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc_embed --modality RGB --device 0 --context --rgb_body --rgb_context --embed
+```
+python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc_embed --modality RGB --device 0 --context --rgb_body --rgb_context --embed
+```
 
 Initialize body stream with ImageNet pre-trained weights:
 
-> python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc_embed --modality RGB --device 0 --context --rgb_body --rgb_context --embed --pretrained_imagenet
+```
+python train_tsn.py --config main_config.json --exp_name TSN_RGB_bc_embed --modality RGB --device 0 --context --rgb_body --rgb_context --embed --pretrained_imagenet
+```
 
 Change modality to Optical Flow (all streams initialized with ImageNet pre-trained weights):
 
-> python train_tsn.py --config main_config.json --exp_name TSN_Flow_bc_embed --modality Flow --device 0 --context --flow_body --flow_context --embed --pretrained_imagenet
+```
+python train_tsn.py --config main_config.json --exp_name TSN_Flow_bc_embed --modality Flow --device 0 --context --flow_body --flow_context --embed --pretrained_imagenet
+```
 
 ### Pre-trained Models
 
@@ -44,7 +52,9 @@ Moreover, all Places365 and SUN pre-trained models that were utilized in our exp
 
 Run inference on the BoLD test set (using the provided pre-trained models): 
 
-> python infer_tsn.py --modality RGB --device 0 --context --rgb_body --rgb_context --rgb_face --scenes --attributes --context --embed --partial_bn --checkpoint {path to .pth checkpoint file} --save_outputs --output_dir {directory to save outputs to} --exp_name some_name --mode test
+```
+python infer_tsn.py --modality RGB --device 0 --context --rgb_body --rgb_context --rgb_face --scenes --attributes --context --embed --partial_bn --checkpoint {path to .pth checkpoint file} --save_outputs --output_dir {directory to save outputs to} --exp_name some_name --mode test
+```
 
 ### Citation
 
